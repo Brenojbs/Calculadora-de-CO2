@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora de CO2</title>
+  <link rel="stylesheet" href="./front/styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Calculadora de Emissão de CO₂</h1>
+
+    <div class="form">
+      <label>Origem:</label>
+      <select id="originSelect">
+        <option value="">Selecione</option>
+      </select>
+
+      <label>Destino:</label>
+      <select id="destinationSelect" disabled>
+        <option value="">Selecione a origem primeiro</option>
+      </select>
+
+      <label>Tipo de veículo:</label>
+      <select id="vehicleType">
+        <option value="">Selecione</option>
+        <option value="carro">Carro</option>
+        <option value="caminhao">Caminhão</option>
+        <option value="onibus">Ônibus</option>
+        <option value="bicicleta">Bicicleta</option>
+      </select>
+
+      <label>Combustível:</label>
+      <select id="fuelType">
+        <option value="">Selecione um veículo primeiro</option>
+      </select>
+      <button id="calculateBtn">Calcular</button>
+    </div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script type="module" src="./front/app.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@ Projeto desenvolvido com foco em **arquitetura simples, separação de responsab
 ## 🚀 Demonstração
 
 👉 GitHub Pages:  
-https://brenojbs.github.io/Calculadora-de-Co2/
+https://brenojbs.github.io/Calculadora-de-CO2/
 
 ---
 
